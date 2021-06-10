@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>812</width>
+    <height>542</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>30</y>
+     <width>541</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Gerenciador de Cadastro de Projetos</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btNew">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>460</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 255, 127);</string>
+   </property>
+   <property name="text">
+    <string>Cadastrar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btEdit">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>460</y>
+     <width>111</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>Editar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btDelete">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>460</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Excluir</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btSim">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>460</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Simular Investimento</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>100</y>
+     <width>271</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Lista de projetos Cadastrados</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tbProjects">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>761</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::NoEditTriggers</set>
+   </property>
+   <property name="selectionMode">
+    <enum>QAbstractItemView::SingleSelection</enum>
+   </property>
+   <property name="selectionBehavior">
+    <enum>QAbstractItemView::SelectRows</enum>
+   </property>
+   <property name="gridStyle">
+    <enum>Qt::DashDotLine</enum>
+   </property>
+   <column>
+    <property name="text">
+     <string>Nome</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Data Início</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Data Término</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Valor do Projeto</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Risco</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Participantes</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
